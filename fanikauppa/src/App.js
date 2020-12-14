@@ -8,10 +8,13 @@ import Cart from './components/Cart.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Modal from 'react-bootstrap/Modal';
 
 function App() {
 
   const [cartItems, setCartItems] = useState(productData)
+  
+
 
   return (
     <>
